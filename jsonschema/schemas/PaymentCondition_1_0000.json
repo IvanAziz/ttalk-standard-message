@@ -1,5 +1,5 @@
 {
-	"$schema": "file:///C:/GIT/ttalk-standard-message-master/jsonschema/schemas/PaymentCondition_1_0000.json#",
+	"$schema": "https://raw.githubusercontent.com/IvanAziz/ttalk-standard-message/refs/heads/master/jsonschema/schemas/PaymentCondition_1_0000.json#",
 	"info": {
 		"description": "",
 		"version": "1.0000",
