@@ -119,15 +119,16 @@
 					]
 				},
 				"currencyRoundingInstallment": {
-					"description": "Arredondamento do Primeiro ou Segundo",
+					"description": "Arredondamento para primeira ou última parcela ('P' - Primeira, 'U' - Última)",
 					"type": "string",
 					"maxLength": 1,
+					"enum": ["P","U"],
 					"x-totvs": [
 						{
 							"product": "RM",
 							"available": true,
 							"required": false,
-							"note": "Nome Fantasia",
+							"note": "Aplicar arredondamento na parcela",
 							"field": "TCPG.ARREDPRIMOUULT",
 							"length": "1",
 							"type": "string"
@@ -135,9 +136,12 @@
 					]
 				},
 				"currencyRounding": {
-					"description": "Arredondamento de Dezena ou Centena",
+					"description": "Arredondamento de moeda ('N' - Não arredonda, 'D' - Dezena, 'C' -  Centavos)",
 					"type": "string",
 					"maxLength": 1,
+					"enum": [
+						"N", "D", "C"
+					],
 					"x-totvs": [
 						{
 							"product": "RM",
@@ -151,7 +155,7 @@
 					]
 				},
 				"PurchasePlan": {
-					"description": "Plano de condições de Pagto de Compra",
+					"description": "Tipos de planos",
 					"type": "boolean",
 					"x-totvs": [
 						{
@@ -165,7 +169,7 @@
 					]
 				},
 				"SalesPlan": {
-					"description": "Plano de condições de Pagto de Venda",
+					"description": "Tipos de planos",
 					"type": "boolean",
 					"x-totvs": [
 						{
@@ -179,8 +183,17 @@
 					]
 				},
 				"WeekDaysFixed": {
-					"description": "Dias de vencimento na semana",
+					"description": "Carência por dias da semana / 1 - Segunda / 2 - Terça / 4 - Quarta / 8 - Quinta / 16 - Sexta / 32 - Sábado / 64 - Domingo",
 					"type": "integer",
+					"enum": [
+						1,
+						2,
+						4,
+						8,
+						16,
+						32,
+						64
+					],
 					"x-totvs": [
 						{
 							"product": "RM",
