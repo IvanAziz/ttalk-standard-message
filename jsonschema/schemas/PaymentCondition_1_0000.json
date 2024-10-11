@@ -147,15 +147,140 @@
 							"product": "RM",
 							"available": true,
 							"required": false,
-							"note": "Arredondamento de Dezena ou Centena",
+							"note": "Arredondamento de Dezena ou Centavos",
 							"field": "TCPG.ARREDDEZOUCENT",
 							"length": "1",
 							"type": "string"
 						}
 					]
 				},
+				"Deflation": {
+					"description": "Deflator",
+					"type": "number",
+					"maxLength": 1,
+					"enum": [
+						"N", "D", "C"
+					],
+					"x-totvs": [
+						{
+							"product": "RM",
+							"available": true,
+							"required": false,
+							"note": "Deflator",
+							"field": "TCPG.DEFLATOR",
+							"type": "number"
+						}
+					]
+				},
+				"ApplicationFormula": {
+					"description": "Aplica Fórmula - Fixo ('T')",
+					"type": "string",
+					"maxLength": 1,
+					"enum": [
+						"T"
+					],
+					"x-totvs": [
+						{
+							"product": "RM",
+							"available": true,
+							"required": false,
+							"note": "Aplica Fórmula - Fixo ('T')",
+							"field": "TCPG.APLICACAOFRM",
+							"length": "1",
+							"type": "string"
+						}
+					]
+				},
+				"PriceOneFormula": {
+					"description": "Código da Fórmula do Preço 1",
+					"type": "string",
+					"maxLength": 8,
+					"x-totvs": [
+						{
+							"product": "RM",
+							"available": true,
+							"required": false,
+							"note": "Código da Fórmula do Preço 1",
+							"field": "TCPG.CODFRMPRECO1",
+							"length": "8",
+							"type": "string"
+						}
+					]
+				},
+				"PriceTwoFormula": {
+					"description": "Código da Fórmula do Preço 2",
+					"type": "string",
+					"maxLength": 8,
+					"x-totvs": [
+						{
+							"product": "RM",
+							"available": true,
+							"required": false,
+							"note": "Código da Fórmula do Preço 2",
+							"field": "TCPG.CODFRMPRECO2",
+							"length": "8",
+							"type": "string"
+						}
+					]
+				},					
+				"InterestRate": {
+					"description": "Taxa de Juros",
+					"type": "number",
+					"x-totvs": [
+						{
+							"product": "RM",
+							"available": true,
+							"required": false,
+							"note": "Taxa de Juros",
+							"field": "TCPG.TAXAJUROS",
+							"type": "number"
+						}
+					]
+				},
+				"CompoundInterest": {
+					"description": "Usa Juros Composto",
+					"type": "boolean",
+					"x-totvs": [
+						{
+							"product": "RM",
+							"available": true,
+							"required": false,
+							"note": "Usa Juros Composto",
+							"field": "TCPG.JUROSCOMPOSTO",
+							"type": "boolean"
+						}
+					]
+				},
+				"CommercialAutomationAvailable": {
+					"description": "Plano de Pagamento",
+					"type": "integer",
+					"x-totvs": [
+						{
+							"product": "RM",
+							"available": true,
+							"required": false,
+							"note": "Usa plano de Pagamento (0 - Não usa; 1 - Usa)",
+							"field": "TCPG.PLANOPAGTO",
+							"type": "integer"
+						}
+					]
+				},				
+				"MonthlyCapitalization": {
+					"description": "Capitalização Mensal",
+					"type": "number",
+					"x-totvs": [
+						{
+							"product": "RM",
+							"available": true,
+							"required": false,
+							"note": "Capitalização Mensal",
+							"field": "TCPG.CAPITALIZMENSAL",
+							"type": "number"
+						}
+					]
+				},
 				"PurchasePlan": {
-					"description": "Tipos de planos",
+					"description": "Tipos de planos de pagamento de compra",
 					"type": "boolean",
 					"x-totvs": [
 						{
@@ -167,7 +292,7 @@
 							"type": "boolean"
 						}
 					]
-				},
+				},			
 				"SalesPlan": {
 					"description": "Tipos de planos",
 					"type": "boolean",
@@ -204,7 +329,23 @@
 							"type": "boolean"
 						}
 					]
-				},
+				},				
+				"FirstInstallmentFormula": {
+					"description": "Fórmula do Valor da Primeira Parcela",
+					"type": "string",
+					"maxLength": 8,
+					"x-totvs": [
+						{
+							"product": "RM",
+							"available": true,
+							"required": false,
+							"note": "Fórmula do Valor da Primeira Parcela",
+							"field": "TCPG.CODFRMPRIMPARCELA",
+							"length": "8",
+							"type": "string"
+						}
+					]
+				},					
 				"Inactive": {
 					"description": "Inativo",
 					"type": "integer",
