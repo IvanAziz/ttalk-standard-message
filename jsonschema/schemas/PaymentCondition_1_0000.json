@@ -375,7 +375,7 @@
 					]
 				},
 				"PaymentAmountOne": {
-					"description": "Valor do Pagamento 1",
+					"description": "Composição das Parcelas - Valor do Pagamento - Parcela 1",
 					"type": "number",
 					"x-totvs": [
 						{
@@ -389,7 +389,7 @@
 					]
 				},
 				"NumberOfTimesOne": {
-					"description": "Número de Vezes 1",
+					"description": "Composição das Parcelas - Número de Vezes - Parcela 1",
 					"type": "integer",
 					"x-totvs": [
 						{
@@ -403,7 +403,7 @@
 					]
 				},
 				"intervalPeriodInDaysOne": {
-					"description": "Período em Dias 1",
+					"description": "Composição das Parcelas - Período em Dias - Parcela 1",
 					"type": "integer",
 					"x-totvs": [
 						{
@@ -417,7 +417,7 @@
 					]
 				},
 				"PaymentTermInDaysOne": {
-					"description": "Prazo 1",
+					"description": "Composição das Parcelas - Prazo - Parcela 1",
 					"type": "integer",
 					"x-totvs": [
 						{
@@ -431,7 +431,7 @@
 					]
 				},
 				"DayCountTypeOne": {
-					"description": "Contagem de Dias 1",
+					"description": "Composição das Parcelas - Contagem de Dias - Parcela 1",
 					"type": "string",
 					"maxLength": 1,
 					"x-totvs": [
@@ -447,7 +447,7 @@
 					]
 				},
 				"typeOfCalculationForInstallmentTermOne": {
-					"description": "Tipo 1",
+					"description": "Composição das Parcelas - Tipo - Parcela 1",
 					"type": "string",
 					"maxLength": 1,
 					"x-totvs": [
@@ -463,7 +463,7 @@
 					]
 				},
 				"PaymentAmountTwo": {
-					"description": "Valor do Pagamento 2",
+					"description": "Composição das Parcelas - Valor do Pagamento - Parcela 2",
 					"type": "number",
 					"x-totvs": [
 						{
@@ -477,7 +477,7 @@
 					]
 				},
 				"NumberOfTimesTwo": {
-					"description": "Número de Vezes 2",
+					"description": "Composição das Parcelas - Número de Vezes - Parcela 2",
 					"type": "integer",
 					"x-totvs": [
 						{
@@ -491,7 +491,7 @@
 					]
 				},
 				"intervalPeriodInDaysTwo": {
-					"description": "Período em Dias 2",
+					"description": "Composição das Parcelas - Período em Dias - Parcela 2",
 					"type": "integer",
 					"x-totvs": [
 						{
@@ -505,7 +505,7 @@
 					]
 				},
 				"PaymentTermInDaysTwo": {
-					"description": "Prazo 2",
+					"description": "Composição das Parcelas - Prazo - Parcela 2",
 					"type": "integer",
 					"x-totvs": [
 						{
@@ -519,7 +519,7 @@
 					]
 				},
 				"DayCountTypeTwo": {
-					"description": "Contagem de Dias 2",
+					"description": "Composição das Parcelas - Contagem de Dias - Parcela 2",
 					"type": "string",
 					"maxLength": 1,
 					"x-totvs": [
@@ -535,7 +535,7 @@
 					]
 				},
 				"typeOfCalculationForInstallmentTermTwo": {
-					"description": "Tipo 2",
+					"description": "Composição das Parcelas - Tipo - Parcela 2",
 					"type": "string",
 					"maxLength": 1,
 					"x-totvs": [
@@ -551,7 +551,7 @@
 					]
 				},
 				"PaymentAmountThree": {
-					"description": "Valor do Pagamento 3",
+					"description": "Composição das Parcelas - Valor do Pagamento - Parcela 3",
 					"type": "number",
 					"x-totvs": [
 						{
@@ -565,7 +565,7 @@
 					]
 				},
 				"NumberOfTimesThree": {
-					"description": "Número de Vezes 3",
+					"description": "Composição das Parcelas - Número de Vezes - Parcela 3",
 					"type": "integer",
 					"x-totvs": [
 						{
@@ -579,7 +579,7 @@
 					]
 				},
 				"intervalPeriodInDaysThree": {
-					"description": "Período em Dias 3",
+					"description": "Composição das Parcelas - Período em Dias - Parcela 3",
 					"type": "integer",
 					"x-totvs": [
 						{
@@ -593,7 +593,7 @@
 					]
 				},
 				"PaymentTermInDaysThree": {
-					"description": "Prazo 3",
+					"description": "Composição das Parcelas - Prazo - Parcela 3",
 					"type": "integer",
 					"x-totvs": [
 						{
@@ -607,7 +607,7 @@
 					]
 				},
 				"DayCountTypeThree": {
-					"description": "Contagem de Dias 3",
+					"description": "Composição das Parcelas - Contagem de Dias - Parcela 3",
 					"type": "string",
 					"maxLength": 1,
 					"x-totvs": [
@@ -623,7 +623,7 @@
 					]
 				},
 				"typeOfCalculationForInstallmentTermThree": {
-					"description": "Tipo 3",
+					"description": "Composição das Parcelas - Tipo - Parcela 3",
 					"type": "string",
 					"maxLength": 1,
 					"x-totvs": [
@@ -639,7 +639,7 @@
 					]
 				},
 				"PaymentAmountFour": {
-					"description": "Valor do Pagamento 4",
+					"description": "Composição das Parcelas - Valor do Pagamento - Parcela 4",
 					"type": "number",
 					"x-totvs": [
 						{
@@ -653,7 +653,7 @@
 					]
 				},
 				"NumberOfTimesFour": {
-					"description": "Número de Vezes 4",
+					"description": "Composição das Parcelas - Número de Vezes - Parcela 4",
 					"type": "integer",
 					"x-totvs": [
 						{
@@ -667,7 +667,7 @@
 					]
 				},
 				"intervalPeriodInDaysFour": {
-					"description": "Período em Dias 4",
+					"description": "Composição das Parcelas - Período em Dias - Parcela 4",
 					"type": "integer",
 					"x-totvs": [
 						{
@@ -681,7 +681,7 @@
 					]
 				},
 				"PaymentTermInDaysFour": {
-					"description": "Prazo 4",
+					"description": "Composição das Parcelas - Prazo - Parcela 4",
 					"type": "integer",
 					"x-totvs": [
 						{
@@ -695,7 +695,7 @@
 					]
 				},
 				"DayCountTypeFour": {
-					"description": "Contagem de Dias 4",
+					"description": "Composição das Parcelas - Contagem de Dias - Parcela 4",
 					"type": "string",
 					"maxLength": 1,
 					"x-totvs": [
@@ -711,7 +711,7 @@
 					]
 				},
 				"PaymentAmountFive": {
-					"description": "Valor do Pagamento 5",
+					"description": "Composição das Parcelas - Valor do Pagamento - Parcela 5",
 					"type": "number",
 					"x-totvs": [
 						{
@@ -725,7 +725,7 @@
 					]
 				},
 				"NumberOfTimesFive": {
-					"description": "Número de Vezes 5",
+					"description": "Composição das Parcelas - Número de Vezes - Parcela 5",
 					"type": "integer",
 					"x-totvs": [
 						{
@@ -739,7 +739,7 @@
 					]
 				},
 				"intervalPeriodInDaysFive": {
-					"description": "Período em Dias 5",
+					"description": "Composição das Parcelas - Período em Dias - Parcela 5",
 					"type": "integer",
 					"x-totvs": [
 						{
@@ -753,7 +753,7 @@
 					]
 				},
 				"PaymentTermInDaysFive": {
-					"description": "Prazo 5",
+					"description": "Composição das Parcelas - Prazo - Parcela 5",
 					"type": "integer",
 					"x-totvs": [
 						{
@@ -767,7 +767,7 @@
 					]
 				},
 				"DayCountTypeFive": {
-					"description": "Contagem de Dias 5",
+					"description": "Composição das Parcelas - Contagem de Dias - Parcela 5",
 					"type": "string",
 					"maxLength": 1,
 					"x-totvs": [
@@ -783,7 +783,7 @@
 					]
 				},
 				"typeOfCalculationForInstallmentTermFive": {
-					"description": "Tipo 5",
+					"description": "Composição das Parcelas - Tipo - Parcela 5",
 					"type": "string",
 					"maxLength": 1,
 					"x-totvs": [
